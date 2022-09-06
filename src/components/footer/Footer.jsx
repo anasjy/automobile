@@ -1,8 +1,16 @@
 import React from 'react'
+import Logo from '../../images/logo_dark.png'
+
+import styles from './Footer.module.css'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className={styles.footer}>
+        <div className={styles.container}>
+        <img src={Logo} alt="" />
+        <button>Share a Car</button>
+        </div>
+    </div>
   )
 }
 
